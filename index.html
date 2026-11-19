@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jahongir Xaytboyev — Senior Frontend Developer</title>
+<meta name="description" content="Jahongir Xaytboyev — Senior Frontend Developer portfoliosi">
+</head>
+<body>
+<table id="page" align="center" width="100%" cellpadding="16"><tr><td>
+
+<header>
+  <h1>Jahongir Xaytboyev</h1>
+  <p><b>Senior Frontend Developer</b> · Toshkent, O‘zbekiston</p>
+  <nav>
+    <a href="#about">Men haqimda</a> |
+    <a href="#experience">Tajriba</a> |
+    <a href="#skills">Ko‘nikmalar</a> |
+    <a href="#projects">Loyihalar</a> |
+    <a href="#education">Ta‘lim</a> |
+    <a href="#contact">Aloqa</a>
+  </nav>
+  <p>
+    <a href="assets/CV_Jahongir_Xaytboyev.pdf" target="_blank" rel="noopener">📄 CV yuklab olish</a>
+  </p>
+  <hr>
+</header>
+
+<main>
+
+  <section id="about">
+    <h2>Men haqimda</h2>
+    <p>
+      Fintech, e-commerce, sog‘liqni saqlash, transport, media va korporativ sohalarda
+      yuqori unumdor veb-ilovalar yaratishda katta tijoriy tajribaga ega Senior Frontend dasturchiman.
+      React.js, Next.js, TypeScript va state management arxitekturalari bo‘yicha mutaxassisman.
+    </p>
+    <p>
+      AI yordamidagi zamonaviy ish usullari (Cursor IDE, prompt engineering, Figma-to-Code)
+      bilan ishlayman, Java/Spring Boot va Python bo‘yicha backend bilimlarim bor.
+    </p>
+    <p><b>Tajriba:</b> <span id="years">5+</span> yil</p>
+  </section>
+
+  <hr>
+
+  <section id="experience">
+    <h2>Ish tajribasi</h2>
+    <article>
+      <h3>Senior Frontend Developer — <a href="https://xb.uz" target="_blank" rel="noopener">Xalq Bank</a></h3>
+      <p><i>Toshkent · 2021 – hozirgacha</i></p>
+      <ul>
+        <li>Asosiy korporativ tizimlar arxitekturasini qurdim: Credit Conveyor, Docflow, HRMS, BPMS va CallAction (React, TypeScript).</li>
+        <li>REST API'larni integratsiya qildim, reaktiv UI arxitekturasini optimallashtirdim.</li>
+        <li>Butun mamlakat bo‘ylab bank operatsiyalariga xizmat qiluvchi standartlarni joriy etdim.</li>
+      </ul>
+    </article>
+  </section>
+
+  <hr>
+
+  <section id="skills">
+    <h2>Ko‘nikmalar</h2>
+    <dl>
+      <dt><b>Frontend (Senior)</b></dt>
+      <dd>JavaScript (ES6+), TypeScript, React.js, Next.js, HTML5, CSS3/Sass, Tailwind CSS, Material UI</dd>
+      <dt><b>State va arxitektura</b></dt>
+      <dd>Redux Toolkit, Zustand, Context API, RESTful APIs, GraphQL, Micro-frontends</dd>
+      <dt><b>AI va zamonaviy ish usuli</b></dt>
+      <dd>Cursor IDE, AI-Assisted Development, Figma-to-Code Automation, AI Prompt Engineering</dd>
+      <dt><b>Backend va DevOps</b></dt>
+      <dd>Java (Spring Boot asoslari), Python, PostgreSQL, MySQL, Git, Docker, E-imzo integratsiyasi</dd>
+    </dl>
+  </section>
+
+  <hr>
+
+  <section id="projects">
+    <h2>Loyihalar</h2>
+    <p>Tijoriy va ochiq manbali loyihalardan tanlanganlari.</p>
+    <p>
+      <label>Qidirish: <input type="search" id="q" placeholder="masalan: fintech, React, striming"></label>
+      <select id="cat">
+        <option value="">Barcha sohalar</option>
+      </select>
+      <small id="count"></small>
+    </p>
+    <div id="list">
+      <noscript><p>Loyihalar ro‘yxatini ko‘rish uchun JavaScript yoqing.</p></noscript>
+    </div>
+  </section>
+
+  <hr>
+
+  <section id="education">
+    <h2>Ta‘lim</h2>
+    <p>
+      <b>Telekommunikatsiya muhandisligi, bakalavr</b><br>
+      Toshkent axborot texnologiyalari universiteti (TUIT) · 2019 – 2023
+    </p>
+  </section>
+
+  <hr>
+
+  <section id="contact">
+    <h2>Aloqa</h2>
+    <p>Loyiha yoki taklif bo‘lsa, yozing — tez javob beraman.</p>
+    <ul>
+      <li>Email: <a href="mailto:xaytboyevtuit.99@gmail.com">xaytboyevtuit.99@gmail.com</a>
+        <button type="button" id="copy">Nusxa olish</button></li>
+      <li>Telegram: <a href="https://t.me/jakhongir_khaytboev" target="_blank" rel="noopener">@jakhongir_khaytboev</a></li>
+      <li>GitHub: <a href="https://github.com/Jakhongir99" target="_blank" rel="noopener">github.com/Jakhongir99</a></li>
+    </ul>
+  </section>
+
+</main>
+
+<hr>
+<footer>
+  <p><small>© <span id="year">2026</span> Jahongir Xaytboyev · <a href="#">Yuqoriga ↑</a></small></p>
+</footer>
+
+</td></tr></table>
+
+<script>
+  var projects = [
+    { name: "Paynet Acquiring Suite", cat: "Fintech", tech: "React, TypeScript",
+      desc: "Acquiring portali: checkout UI, admin panellar, merchant analitika dashboardlari va API hujjatlari.",
+      links: [["pay.paynet.uz", "https://pay.paynet.uz"], ["admin", "https://pay-admin.paynet.uz"],
+              ["merchant", "https://pay-merchant.paynet.uz"], ["docs", "https://pay-docs.paynet.uz"]] },
+    { name: "24Seven Ecosystem", cat: "Striming", tech: "React, HTML5 media",
+      desc: "Maxsus HTML5 video/audio pleyerlar va media boshqaruvi bilan ko‘p portalli striming xizmati.",
+      links: [["24seven.uz", "https://24seven.uz"], ["video", "https://video.24seven.uz"], ["main", "https://main.24seven.uz"]] },
+    { name: "RateBus", cat: "Transport", tech: "React",
+      desc: "Avtobus va haydovchilar reyestri, avtomatik QR kodlar, yo‘lovchilar fikri real vaqtda.",
+      links: [["ratebus.uz", "https://ratebus.uz"]] },
+    { name: "E-Birja va Tezkor Xarid", cat: "E-commerce", tech: "React, E-imzo",
+      desc: "Auksion, tender va tanlovlarni qo‘llab-quvvatlovchi portallar, E-imzo orqali avtorizatsiya.",
+      links: [["ebirja.uz", "https://ebirja.uz"], ["tezkorxarid.uz", "https://tezkorxarid.uz"]] },
+    { name: "GoTour va Travel Albatros", cat: "Turizm", tech: "React",
+      desc: "Tur paketlar va bronlash portallari hamda administrativ back-office tizimlari.",
+      links: [["gotour.uz", "https://gotour.uz"], ["travel-albatros.uz", "https://travel-albatros.uz"],
+              ["head.travel-albatros.uz", "https://head.travel-albatros.uz"]] },
+    { name: "MedControl va ISFT Institute", cat: "Sog‘liqni saqlash va ta‘lim", tech: "React",
+      desc: "Klinika bemor/shifokor boshqaruv platformasi va ISFT institutiga qabul portali.",
+      links: [["medcontrol.uz", "https://medcontrol.uz"], ["isft.uz", "https://isft.uz"]] },
+    { name: "CarPoint, Evalue va Tayan", cat: "Avto va CRM", tech: "React",
+      desc: "Avto bozor, aktivlarni baholash portali va biznes qo‘llab-quvvatlash katalogi.",
+      links: [["carpoint.uz", "https://carpoint.uz"], ["evalue.uz", "https://evalue.uz"], ["tayan.uz", "https://tayan.uz"]] },
+    { name: "UzNBF va Sazu TV / Cinema", cat: "Striming", tech: "React",
+      desc: "O‘zbekiston bodibilding federatsiyasi rasmiy portali va admin panelli kino striming platformasi.",
+      links: [["uznbf.uz", "https://uznbf.uz"], ["sazu.tv", "https://sazu.tv"], ["sazu.uz", "https://sazu.uz"],
+              ["admin.sazu.uz", "https://admin.sazu.uz"]] },
+    { name: "Gym Trainer Bot", cat: "AI / Bot", tech: "Python, Cursor IDE",
+      desc: "Telegram fitnes bot: mashqlar, tana ko‘rsatkichlari, BMR kalkulyator, jihozni AI orqali aniqlash.",
+      links: [["@gym_trainer_app_bot", "https://t.me/gym_trainer_app_bot"],
+              ["GitHub", "https://github.com/Jakhongir99/my-gym-trainer-bot"]] }
+  ];
+
+  var list = document.getElementById("list");
+  var q = document.getElementById("q");
+  var cat = document.getElementById("cat");
+  var count = document.getElementById("count");
+
+  projects.map(function (p) { return p.cat; })
+    .filter(function (c, i, a) { return a.indexOf(c) === i; })
+    .forEach(function (c) { cat.add(new Option(c, c)); });
+
+  function el(tag, text) {
+    var e = document.createElement(tag);
+    if (text) e.textContent = text;
+    return e;
+  }
+
+  function render() {
+    var term = q.value.trim().toLowerCase();
+    var shown = projects.filter(function (p) {
+      var hay = (p.name + " " + p.cat + " " + p.tech + " " + p.desc).toLowerCase();
+      return (!cat.value || p.cat === cat.value) && (!term || hay.indexOf(term) !== -1);
+    });
+
+    list.textContent = "";
+    shown.forEach(function (p) {
+      var art = el("article");
+      art.appendChild(el("h3", p.name));
+      var meta = el("p");
+      meta.appendChild(el("i", p.cat + " · " + p.tech));
+      art.appendChild(meta);
+      art.appendChild(el("p", p.desc));
+      var links = el("p");
+      p.links.forEach(function (l, i) {
+        if (i) links.appendChild(document.createTextNode(" · "));
+        var a = el("a", l[0] + " ↗");
+        a.href = l[1];
+        a.target = "_blank";
+        a.rel = "noopener";
+        links.appendChild(a);
+      });
+      art.appendChild(links);
+      list.appendChild(art);
+    });
+
+    if (!shown.length) list.appendChild(el("p", "Hech narsa topilmadi."));
+    count.textContent = shown.length + " / " + projects.length + " ta loyiha";
+  }
+
+  q.addEventListener("input", render);
+  cat.addEventListener("change", render);
+  render();
+
+  document.getElementById("copy").addEventListener("click", function () {
+    var btn = this;
+    navigator.clipboard.writeText("xaytboyevtuit.99@gmail.com").then(function () {
+      btn.textContent = "Nusxalandi ✓";
+      setTimeout(function () { btn.textContent = "Nusxa olish"; }, 1500);
+    }, function () {
+      btn.textContent = "Nusxa olinmadi";
+    });
+  });
+
+  // Sahifa kengligini cheklash (max-width o‘rniga): katta ekranda 760px, kichikda to‘liq kenglik
+  var page = document.getElementById("page");
+  function fit() {
+    page.width = window.innerWidth > 800 ? "760" : "100%";
+  }
+  window.addEventListener("resize", fit);
+  fit();
+
+  var now = new Date();
+  document.getElementById("year").textContent = now.getFullYear();
+  document.getElementById("years").textContent = (now.getFullYear() - 2021) + "+";
+</script>
+</body>
+</html>
